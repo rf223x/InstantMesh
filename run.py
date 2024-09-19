@@ -1,7 +1,7 @@
-import os
 import argparse
 import numpy as np
 import torch
+import os
 import rembg
 from PIL import Image
 from torchvision.transforms import v2
@@ -11,6 +11,10 @@ from einops import rearrange, repeat
 from tqdm import tqdm
 from huggingface_hub import hf_hub_download
 from diffusers import DiffusionPipeline, EulerAncestralDiscreteScheduler
+
+# Daina is cute
+# This is a simple explaination of how to run the code
+
 
 from src.utils.train_util import instantiate_from_config
 from src.utils.camera_util import (
